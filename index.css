@@ -1,0 +1,589 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.slider{
+  width: 100%;
+}
+.audio{
+  position: absolute;
+  z-index: 10001;
+}
+.recomendaciones{
+  width: 100%;
+}
+.arrowfirst{
+
+    width: 5%;
+    position: absolute;
+    top: 50%;
+    left: 91%;
+    animation: arrow_movement 1.5s ease-in-out infinite;
+  
+}
+/* Primera escena */
+.maincontainer {
+  width: 50%;
+  height: auto;
+}
+.container-slider {
+  width: 200%;
+  height: auto;
+}
+.escena1 {
+  background: url(./Escena1/IMGscena1/cielo.png);
+  width: 100%;
+  animation: cielo 12s linear infinite;
+}
+@keyframes cielo {
+  100% {
+    background-position-x: 1296px;
+  }
+}
+.img_granjaPrin {
+  width: 100%;
+}
+.molino {
+  width: 15%;
+  top: 28%;
+  left: 43%;
+  position: absolute;
+  z-index: 1000;
+  cursor: pointer;
+}
+.animacion_molino {
+  animation: girar 3s linear infinite;
+}
+@keyframes girar {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.gifensayo {
+  width: 100%;
+  height: 100%;
+  bottom: 20px;
+  position: absolute;
+  display: none;
+}
+.arrow1 {
+  width: 5%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  z-index: 10001;
+  animation: arrow_movement 1.5s ease-in-out infinite;
+}
+.arrow2 {
+  width: 5%;
+  position: absolute;
+  top: 50%;
+  left: 91%;
+  display: none;
+  animation: arrow_movement 1.5s ease-in-out infinite;
+}
+@keyframes arrow_movement {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+.botones {
+  z-index: 10002;
+}
+
+/* Segunda escena */
+.escena2 {
+  width: 100%;
+  height: auto;
+}
+.lucesLab {
+  width: 100%;
+  position: absolute;
+  top: 12.5%;
+  left: 0.7%;
+  display: none;
+}
+.on {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.off {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.botones {
+  top: 3%;
+  width: 10%;
+  position: absolute;
+  display: flex;
+  padding: 30px;
+}
+.noche {
+  position: absolute;
+  width: 19%;
+  left: 83.4%;
+  top: 2.9%;
+  display: none;
+}
+.arrow3 {
+  width: 5%;
+  position: absolute;
+  top: 8%;
+  left: 3%;
+  animation: arrow_movement 1.5s ease-in-out infinite;
+}
+.arrownext {
+  width: 5%;
+  position: absolute;
+  top: 50%;
+  left: 91%;
+  display: none;
+  animation: arrow_movement 1.5s ease-in-out infinite;
+}
+.arrow4 {
+  width: 5%;
+  position: absolute;
+  z-index: 10001;
+  top: 80%;
+  left: 88%;
+  animation: arrow_movement 1.5s ease-in-out infinite;
+}
+@keyframes arrow_movement {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+.gifescena2 {
+  width: 100%;
+  height: 100%;
+  bottom: 3px;
+  right: 0.08%;
+  position: absolute;
+  display: none;
+}
+.Ian {
+  width: 12%;
+  position: absolute;
+  left: 82%;
+  top: 70%;
+  z-index: 10001;
+  cursor: pointer;
+}
+.mesa {
+  width: 100%;
+  position: absolute;
+  bottom: -6px;
+  right: 29px;
+}
+.cel {
+  position: absolute;
+  width: 10%;
+  z-index: 10001;
+  top: 40%;
+  left: 78%;
+  display: none;
+  cursor: pointer;
+  animation: arrow_movement 1.5s ease-in-out infinite;
+}
+
+.gifsegundaparte {
+  width: 100%;
+  height: 100%;
+  bottom: 3px;
+  position: absolute;
+  display: none;
+}
+/* terceraescena */
+  .bar{
+    width: 100%;
+    height: 70%;
+    
+    display: none;
+  }
+  .barfondo{
+    width: 100%;
+    height: 70%;
+    cursor: pointer;
+  }
+  .arrow31{
+    width: 5%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  z-index: 1000;
+  animation: arrow_movement 1.5s ease-in-out infinite;
+  }
+  .arrow32{
+  width: 5%;
+  position: absolute;
+  top: 50%;
+  left: 91%;
+  z-index: 1000;
+  display: none;
+  animation: arrow_movement 1.5s ease-in-out infinite;
+  }
+/* cuartaescena */
+
+.LabGranjafondo {
+  width: 100%;
+}
+.labGranja {
+  width: 100%;
+  position: absolute;
+  display: none;
+}
+.on5 {
+  width: 100%;
+  cursor: pointer;
+}
+.off5 {
+  width: 100%;
+  cursor: pointer;
+}
+.botonesEscena5 {
+  top: 3%;
+  width: 10%;
+  position: absolute;
+  display: flex;
+  padding: 30px;
+  z-index: 10001;
+}
+.LuzGranja {
+  width: 100%;
+  position: absolute;
+  top: 18%;
+  opacity: 0.2;
+  display: none;
+}
+.arrow5 {
+  width: 5%;
+  position: absolute;
+  top: 8%;
+  left: 3%;
+  z-index: 1000;
+  animation: arrow_movement 1.5s ease-in-out infinite;
+}
+.arrow52 {
+  width: 5%;
+  position: absolute;
+  top: 87%;
+  left: 13%;
+  z-index: 1000;
+  animation: arrow_movement 1.5s ease-in-out infinite;
+}
+.arrow4next{
+  width: 5%;
+  position: absolute;
+  top: 50%;
+  left: 91%;
+  display: none;
+  animation: arrow_movement 1.5s ease-in-out infinite;
+}
+.oveja {
+  width: 5%;
+  top: 77%;
+  left: 12.7%;
+  position: absolute;
+  z-index: 10001;
+  cursor: pointer;
+}
+
+/* quintaescena */
+.fondonoche{
+  width: 100%;
+  z-index: 10001;
+  cursor: pointer;
+}
+.carro1{
+  width: 15%;
+  top: 85%;
+  left: 50%;
+  position: absolute;
+  cursor: pointer;
+  
+}
+.carro2{
+  width: 15%;
+  top: 89%;
+  left: 40%;
+  position: absolute;
+  cursor: pointer;
+}
+.carrosmover{
+  animation: carrosmover 3s ease-in-out;
+}
+@keyframes carrosmover {
+  100%{
+    left: 100%;
+  }
+}
+.arrow51 {
+  width: 5%;
+  position: absolute;
+  z-index: 1000;
+  top: 40%;
+  left: 50%;
+  animation: arrow_movement 1.5s ease-in-out infinite;
+}
+.arrow53 {
+  width: 5%;
+  position: absolute;
+  top: 90%;
+  left: 55%;
+  display: none;
+  animation: arrow_movement 1.5s ease-in-out infinite;
+}
+.arrow54 {
+  width: 5%;
+  position: absolute;
+  top: 50%;
+  left: 91%;
+  display: none;
+  animation: arrow_movement 1.5s ease-in-out infinite;
+}
+.arrow55 {
+  width: 5%;
+  position: absolute;
+  z-index: 1000;
+  top: 40%;
+  left: 50%;
+  display: none;
+  animation: arrow_movement 1.5s ease-in-out infinite;
+}
+.granjanoche1{
+  width: 100%;
+  position: absolute;
+  display: none;
+  cursor: pointer;
+}
+.granjanoche2{
+  width: 100%;
+  position: absolute;
+  display: none;
+  
+}
+/* sextaaescena */
+
+.incendiodia{
+  width: 100%;
+  display: none;
+}
+.incendiofondo{
+  width: 100%;
+  cursor: pointer;
+}
+.arrow61{
+  width: 5%;
+position: absolute;
+top: 40%;
+left: 50%;
+z-index: 1000;
+animation: arrow_movement 1.5s ease-in-out infinite;
+}
+.arrow62{
+width: 5%;
+position: absolute;
+top: 50%;
+left: 91%;
+z-index: 1000;
+display: none;
+animation: arrow_movement 1.5s ease-in-out infinite;
+}
+/* septimaescena */
+
+  .fondoescena7{
+    width: 100%;
+  }
+  .gifescena7{
+    width: 100%;
+    position: absolute;
+    display: none;
+  }
+  .lucesescena7 {
+    width: 100%;
+    position: absolute;
+    top: 18%;
+    opacity: 0.2;
+    display: none;
+  }
+  .arrow71 {
+    width: 5%;
+    position: absolute;
+    top: 87%;
+    left: 13%;
+    z-index: 1000;
+    animation: arrow_movement 1.5s ease-in-out infinite;
+  }
+  .arrow72{
+    width: 5%;
+    position: absolute;
+    top: 50%;
+    left: 91%;
+    display: none;
+    animation: arrow_movement 1.5s ease-in-out infinite;
+  }
+  .arrow73 {
+    width: 5%;
+    position: absolute;
+    top: 8%;
+    left: 3%;
+    z-index: 1000;
+    animation: arrow_movement 1.5s ease-in-out infinite;
+  }
+  .ovejaescena7 {
+    width: 5%;
+    top: 77%;
+    left: 12.7%;
+    position: absolute;
+    z-index: 10001;
+    cursor: pointer;
+  }
+  .on7 {
+    width: 100%;
+    cursor: pointer;
+  }
+  .off7 {
+    width: 100%;
+    cursor: pointer;
+  }
+  .botonesescena7 {
+    top: 3%;
+    width: 10%;
+    position: absolute;
+    display: flex;
+    padding: 30px;
+    z-index: 10001;
+  }
+/* octavaescena */
+  .prado{
+    width: 100%;
+    cursor: pointer;
+  }
+  .gifprado{
+    width: 100%;
+    display: none;
+  }
+  .arrow81{
+    width: 5%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  z-index: 1000;
+  animation: arrow_movement 1.5s ease-in-out infinite;
+  }
+  .arrow82{
+  width: 5%;
+  position: absolute;
+  top: 50%;
+  left: 91%;
+  z-index: 1000;
+  display: none;
+  animation: arrow_movement 1.5s ease-in-out infinite;
+  }
+
+  /* novenaescena */
+  .ciudadfondo{
+    width: 100%;
+    cursor: pointer;
+  }
+  .ciudadgif{
+    width: 100%;
+    display: none;
+  }
+  .arrow91{
+    width: 5%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  z-index: 1000;
+  animation: arrow_movement 1.5s ease-in-out infinite;
+  }
+  .arrow92{
+    width: 5%;
+    position: absolute;
+    top: 50%;
+    left: 91%;
+    z-index: 1000;
+    display: none;
+    animation: arrow_movement 1.5s ease-in-out infinite;
+    }
+/* fin */
+
+.fin{
+  width: 100%;
+}
+
+@media screen and (max-width: 1367px) {
+  .slider{
+    width: auto;
+  }
+}
+/*   
+    .img_granjaPrin{
+        width: 1367px;
+    }
+    .molino{
+        width: 200px;
+        top: 28%;
+        left: 44%;   
+    }
+    .gifensayo{
+        width: 1920px;
+        height: 1000px;
+    }
+    .escena2{
+        width: 1367px;
+        height: 700px; 
+    }
+    .lucesLab{
+       width: 1367px;
+       top: 81px;
+        left: 13px; 
+    }
+    .mesa{
+        width: 1300px;
+        position: absolute;
+        bottom: -6px;
+        right: 29px;
+    }
+    .Ian{
+        width: 150px;
+        position: absolute;
+        left: 1130px;
+        top: 500px;
+        z-index: 10001;
+    }
+    .gifescena2{
+        width: 1100px;
+        height: 700px;
+        left: 16%;
+        bottom: 4px;
+        
+    }
+    .gifsegundaparte{
+        width: 1100px;
+        height: 700px;
+        bottom: 4px;
+       left: 16%;
+        
+    }
+} 
+ */
